@@ -1,0 +1,83 @@
+body {
+    background: linear-gradient(to left, #F4F7FD, #FFF);
+}
+
+form {
+    max-width: 500px;
+    margin-top: 50px;
+    padding: 20px;
+    border: solid lightgray 2px;
+}
+
+form label {
+    display: block;
+    margin: 10px 0;
+}
+
+form input, textarea {
+    width: 100%;
+}
+
+textarea {
+    resize: none;
+    height: auto;
+}
+
+.project {
+    margin-top: 50px;
+    padding: 10px 20px;
+    background-color: #eef3f9;
+    border-radius: 10px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+
+}
+.project img {
+    margin:auto;
+    width: 100%;
+}
+.project h1 {
+    text-align: center;
+}
+.project:first-child {
+    margin-top: 10px;
+}
+
+
+.social {
+    list-style: none;
+    margin: auto;
+    padding: 0;
+}
+
+.social li {
+    display: inline-block;
+    font-size: 2em;
+}
+
+.social li i {
+    transition: .3s;
+}
+
+.social li i:hover {
+    color: #94BAE9;
+}
+
+#arrow {
+    display: none;
+}
+
+@media (max-width: 48em) {
+    #arrow {
+        display: block;
+        width: 75px;
+        height: 50px;
+        margin: auto;
+    }
+
+    .sidebar {
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+
+}

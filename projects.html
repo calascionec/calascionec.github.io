@@ -1,0 +1,19 @@
+---
+layout: page
+title: Projects
+order: 3
+---
+
+<div class="projects">
+    {% assign sort_projects = site.projects | sort: "order" %}
+    {% for project in sort_projects %}
+    <div class="project">
+        <h1 class="project-title">
+            {{ project.title }}
+        </h1>
+        <img src="{{site.baseurl}}{{project.img}}" alt="" />
+        <h4><a href="{{ project.website }}">{{ project.website | remove: 'http://' | remove: 'https://' }}</a></h4>
+        {{ project.content }}
+    </div>
+    {% endfor %}
+</div>
