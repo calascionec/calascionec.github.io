@@ -55,7 +55,7 @@ html {
 .sidebar {
     text-align: center;
     padding: 5rem 1rem;
-    color: rgba(255, 255, 255, .5);
+    color: rgba(255, 255, 255, .75);
     background-color: #202020;
 }
 @media (min-width: 48em) {
@@ -233,7 +233,7 @@ a.sidebar-nav-item:hover, a.sidebar-nav-item:focus {
 /* Carolina Blue */
 
 .theme-base-0z .sidebar {
-    background: linear-gradient(transparent, rgb(248,251,255)), url('../img/argyle.jpg') repeat-y,  url('../img/gradient.jpg') repeat-x;
+    background: linear-gradient(to top, rgb(218,232,248), transparent 50%), linear-gradient(transparent, rgb(248,251,255)), url('../img/argyle.jpg') repeat-y,  url('../img/gradient.jpg') repeat-x;
     height: 100%;
 }
 .theme-base-0z .content a, .theme-base-0z .related-posts li a:hover, .project-title {
