@@ -62,6 +62,9 @@ textarea {
 .social li i:hover {
     color: #94BAE9;
 }
+.sidebar-nav-item {
+        transition: .4s;
+}
 
 .sidebar-nav-item:hover {
     color: #94BAE9;
