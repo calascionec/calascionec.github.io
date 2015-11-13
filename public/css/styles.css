@@ -63,6 +63,10 @@ textarea {
     color: #94BAE9;
 }
 
+.sidebar-nav-item:hover {
+    color: #94BAE9;
+}
+
 #arrow {
     display: none;
 }
