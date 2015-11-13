@@ -1,0 +1,28 @@
+# Dependencies
+markdown:         redcarpet
+gems: [jekyll-paginate]
+
+# Permalinks
+permalink:        /:categories/:title
+
+
+# Setup
+title:            Christopher<br>Calascione
+tagline:          'A Portfolio Site'
+description:      'Currently a student at <a href="http://www.epicodus.com">Epicodus</a> in Portland, OR studying to become a junior web developer.'
+baseurl:          /
+collections:
+- projects
+
+
+# Base theme author
+author:
+  name:           'Mark Otto'
+  url:            https://twitter.com/mdo
+
+paginate:         3
+
+# Custom vars
+version:          2.1.0
+
+github: https://www.github.com/calascionec
