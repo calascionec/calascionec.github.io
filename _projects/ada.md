@@ -1,7 +1,7 @@
 ---
 layout: project
 title: ADA (Artificial Derisive Assistant)
-website: https://github.com/jcubed22/ADA
+website: http://calascionec.github.io/ADA/
 img: public/img/ada.jpg
 order: 2
 ---
