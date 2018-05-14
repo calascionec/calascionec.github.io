@@ -1,7 +1,6 @@
 # Dependencies
 markdown:         redcarpet
-gems: [jekyll-paginate]
-
+plugins: [jekyll-paginate]
 # Permalinks
 permalink:        /:categories/:title
 
@@ -9,7 +8,7 @@ permalink:        /:categories/:title
 # Setup
 title:            Christopher<br>Calascione
 tagline:          'A Portfolio Site'
-description:      'Currently a student at <a href="http://www.epicodus.com">Epicodus</a> in Portland, OR studying to become a junior web developer.'
+description:      ''
 baseurl:          /
 collections:
 - projects
