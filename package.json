@@ -1,0 +1,25 @@
+{
+  "name": "calascionec.github.io",
+  "version": "1.0.0",
+  "description": "Built with Jekyll and use of Hyde theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calascionec/calascionec.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/calascionec/calascionec.github.io/issues"
+  },
+  "homepage": "https://github.com/calascionec/calascionec.github.io#readme",
+  "devDependencies": {
+    "browser-sync": "^2.24.4",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1",
+    "gulp-util": "^3.0.8"
+  }
+}

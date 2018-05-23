@@ -25,3 +25,8 @@ paginate:         3
 version:          2.1.0
 
 github: https://www.github.com/calascionec
+
+exclude:
+  - package.json
+  - node_modules
+  - gulpfile.js
