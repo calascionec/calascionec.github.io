@@ -1,0 +1,41 @@
+html {
+    @include fluid-property(font-size, 320px, 1440px, 7.5px, 10px);
+    //font-size: 10px;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    font-size: 2rem;
+    font-family: $font--body;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: $font--header;
+    line-height: 1.2;
+}
+
+h1 {
+     font-size: 9rem;
+}
+
+h2 {
+    font-size: 6.4rem;
+}
+
+h3 {
+    font-size: 4.5rem;
+}
+
+h4 {
+    font-size: 3.2rem;
+}
+
+p {
+    line-height: 1.5;
+    margin-bottom: 1.5em;
+    letter-spacing: .02em;
+}
